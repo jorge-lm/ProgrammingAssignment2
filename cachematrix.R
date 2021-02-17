@@ -18,7 +18,7 @@ makeCacheMatrix <-function(mx=matrix){
 }
 
 
-## Write a short comment describing this function
+## Now that has cache of matrix, we´re return a value of matrix inverse
 
 cacheSolve<- function(x, ...) {
   mx <- x$getmean()
