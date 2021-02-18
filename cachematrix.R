@@ -26,6 +26,7 @@ makeCacheMatrix <-function(mx=matrix){
 
 ## Now that has cache of matrix,  function calculates the
 # inverse, of the special "matrix" created with the above function
+# the funtion show the messegae when matrix, be housen en cache data.
 
 
 cacheSolve<- function(x, ...) {
