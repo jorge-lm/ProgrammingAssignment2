@@ -2,6 +2,12 @@
 ## functions do
 
 ## The function take the cache from a matrix
+## Follow the instructions the "makeCacheMatrix, 
+## follow the next steps:
+#     1. set the value of the matrix
+#     2. get the value of the matrix
+#     3. set the value of the inverse
+#     4. get the value of the inverse
 
 makeCacheMatrix <-function(mx=matrix){
   inv=NULL
@@ -18,7 +24,9 @@ makeCacheMatrix <-function(mx=matrix){
 }
 
 
-## Now that has cache of matrix, we´re return a value of matrix inverse
+## Now that has cache of matrix,  function calculates the
+# inverse, of the special "matrix" created with the above function
+
 
 cacheSolve<- function(x, ...) {
   mx <- x$getmean()
@@ -31,3 +39,5 @@ cacheSolve<- function(x, ...) {
   x$setInverse(mx)
   mx
 }
+
+#END
